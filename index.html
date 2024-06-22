@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>FYNEPRINT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
     <link rel="icon" type="image/x-icon" href="images/FYNEPRINT L.png">
 
     <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
@@ -14,9 +14,10 @@ charset="utf-8"></script>
 
 </head>
 <body>
-
+<div class="container">
+  
    <header>
-     <h2 class="Logo"> FYNEPRINT</h2>
+     <h2 id="Logo"> FYNEPRINT</h2>
      <nav class="navigation"> 
         <a href="index.html"><button class="btnOrder-popup">ONLINE PRINT</button></a>
         <a href="book.html"><button class="btnOrder-popup">BOOK A PRINT </button></a>
@@ -27,7 +28,9 @@ charset="utf-8"></script>
 
    <div class="wrapper">
      <div class="form-box ORDER">
-        <h1 id="txt">PRINT</h1>
+      <br>
+      <br>
+        <h1 id="txt">   PLACE PRINT</h1>
         <form action="https://formspree.io/f/xrgnnwez" method="POST">
           <div class="input-box">
             <label>FULL NAME</label>
@@ -79,10 +82,8 @@ charset="utf-8"></script>
         
    </div>
    
-   <footer> 
-
-   </footer>
-
+  </div>
    <script src="script.js"></script>
+
 </body>
 </html>
